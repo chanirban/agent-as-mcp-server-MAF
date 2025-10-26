@@ -79,6 +79,4 @@ It will run a sequence of prompts (health check, menu list, dietary filter, pric
 - **Server**: `stdio_server()` exposes async stdin/stdout streams; `server.run()` handles JSON‑RPC (initialize/list_tools/call_tool).
 - **Client**: `stdio_client()` launches the server process and returns streams; `ClientSession` drives the JSON‑RPC calls.
 
-See the annotated files for in‑line explanations of each step.
-
 ---
